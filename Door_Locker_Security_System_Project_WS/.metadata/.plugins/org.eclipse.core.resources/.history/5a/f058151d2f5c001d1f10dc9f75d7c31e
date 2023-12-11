@@ -1,0 +1,53 @@
+/*
+ *    File name: buzzer.c
+ *   Created on: Nov 3, 2022
+ *       Author: Mohamed Badr
+ *  Description: 
+ */
+
+/*******Module header file**********/
+#include "buzzer.h"
+/***********************************/
+
+/**********Other Modules header files used by this module*************/
+#include "gpio.h"
+/*****************************************************************/
+
+/**********Other header files used by this module*************/
+
+/*****************************************************************/
+
+/*******Global variables***********/
+
+/***********************************/
+
+/*********Interrupt Service Routine**********/
+
+/********************************************/
+
+/***************Function Prototypes For private Functions**********************/
+
+/******************************************************************************/
+
+/*************************Functions definitions**************************/
+/*
+ * Description :
+ */
+void BUZZER_init (void)
+{
+	/*****Setup the direction for the buzzer pin as output pin through the GPIO driver******/
+	GPIO_setupPinDirection(BUZZER_PORT_ID, BUZZER_PIN_ID, PIN_OUTPUT);
+	/**************************************************************************************/
+	GPIO_writePin(BUZZER_PORT_ID, BUZZER_PIN_ID, LOGIC_LOW);/*Turn off the buzzer through the GPIO*/
+
+}
+
+/*
+ * Description :
+ */
+void BUZZER_on(void)
+{
+	GPIO_writePin(BUZZER_PORT_ID, BUZZER_PIN_ID, LOGIC_HIGH)
+}
+
+/*****************************************************************/

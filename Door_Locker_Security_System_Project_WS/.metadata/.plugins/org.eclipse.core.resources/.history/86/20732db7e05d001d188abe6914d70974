@@ -1,0 +1,48 @@
+/*
+ *    File name: CONTROL_ECU_functions.c
+ *   Created on: Nov 6, 2022
+ *       Author: Mohamed Badr
+ *  Description: 
+ */
+
+
+/*******Module header file**********/
+#include "CONTROL_ECU_functions.h"
+/***********************************/
+
+/**********Other Modules header files used by this module*************/
+#include "twi.h"
+#include "eeprom.h"
+#include "uart.h"
+#include "lcd.h"
+#include "dc-motor.h"
+#include "timer1.h"
+#include "buzzer.h"
+/*****************************************************************/
+
+/**********Other header files used by this module*************/
+#include<avr/io.h>
+
+#include <util/delay.h>
+/*****************************************************************/
+
+/*******Global variables***********/
+uint8 g_passwordArray[PASSWORD_SIZE_PLUS_ENTER] = { 0 },
+		g_repeatedPassword[PASSWORD_SIZE_PLUS_ENTER] = { 0 };
+TIMER1_ConfigType g_TIMER1_configurations;
+volatile uint8 g_tick = 0;
+/***********************************/
+
+/*********Interrupt Service Routine**********/
+
+/********************************************/
+
+/***************Function Prototypes For private Functions**********************/
+
+/******************************************************************************/
+
+/*************************Functions definitions**************************/
+/*
+ * Description :
+ */
+/*****************************************************************/

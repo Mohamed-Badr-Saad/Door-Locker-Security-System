@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="646"/>
+		<item key="DIALOG_Y_ORIGIN" value="354"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="LCD"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="lcd"/>
+			<item value="eeprom_"/>
+			<item value="_delay"/>
+			<item value="3"/>
+			<item value="&#x09;while (UART_receiveByte() != CONTROL_ECU_READY)"/>
+			<item value="g_TIMER1_configurations"/>
+			<item value="500"/>
+			<item value="numPass"/>
+		</list>
+		<list key="replacehistory">
+			<item value="TIMER1_configurations"/>
+			<item value="CLICK_PERIOD_IN_SEC"/>
+			<item value="receivedPass"/>
+		</list>
+	</section>
+</section>

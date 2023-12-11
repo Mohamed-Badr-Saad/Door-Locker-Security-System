@@ -1,7 +1,7 @@
 # Door Locker Security System
 
 ## Project Overview
-
+![Door Locker System](Door_Locker_Security_System.jpg)
 The Door Locker Security System is designed to unlock a door using a password. The system is implemented using two ATmega32 Microcontrollers operating at a frequency of 8MHz. The project follows a layered architecture model with two main components:
 
 1. **HMI_ECU (Human Machine Interface):** Responsible for user interaction with a 2x16 LCD and a 4x4 keypad.

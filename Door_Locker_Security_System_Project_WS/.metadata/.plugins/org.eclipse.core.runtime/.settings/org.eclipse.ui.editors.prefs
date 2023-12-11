@@ -1,0 +1,8 @@
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+eclipse.preferences.version=1
+indexResultIndication=false
+org.eclipse.cdt.ui.occurrenceIndicationColor=40,40,3
+org.eclipse.cdt.ui.writeOccurrenceIndicationColor=40,40,3
+spellingEngine=org.eclipse.jdt.internal.ui.text.spelling.DefaultSpellingEngine

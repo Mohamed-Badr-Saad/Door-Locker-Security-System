@@ -1,0 +1,46 @@
+/*
+ *    File name: HMI_ECU_functions.h
+ *   Created on: Nov 6, 2022
+ *       Author: Mohamed Badr
+ *  Description: 
+ */
+
+#ifndef HMI_ECU_FUNCTIONS_H_
+#define HMI_ECU_FUNCTIONS_H_
+/************Common Header Files***************/
+
+/**********************************************/
+
+/*************Static Configurations***************/
+
+/*************************************************/
+
+/************Definitions***************/
+#define PASSWORD_SIZE 5
+#define PASSWORDS_IDENTICAL 1
+#define PASSWORDS_NOT_IDENTICAL 0
+#define CONTROL_ECU_READY 0xFF
+#define CLICK_PERIOD_IN_SEC 500
+#define OPEN_DOOR '+'
+#define CHANGE_PASSWORD '-'
+#define DUMMY_VALUE 0xF0
+/**************************************/
+
+/***********User defined Data Types***************/
+
+/*************************************************/
+
+/**********Extern Public Global Variable************/
+
+/***************************************************/
+
+/***************Function Prototypes For Public Functions**********************/
+
+/****************************************************************************/
+
+/***********Macros***********/
+
+/****************************/
+
+
+#endif /* HMI_ECU_FUNCTIONS_H_ */
